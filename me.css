@@ -1,0 +1,100 @@
+body{
+    background-color: azure;
+    color: #000000;
+    justify-content: center;
+    padding: 20px;
+}
+
+.navigasi{ 
+    justify-content: center;
+    display: block;
+    background-color:#8b0000;
+    
+    
+}
+
+
+ul{
+    list-style-type:none;
+    margin: 1px;;
+    padding: 1px;
+    display: flex;
+}
+.navigasi .li{
+  background-color: bisque;
+}
+li{ 
+    margin: 2px;
+    padding: 2px;
+   
+}
+ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: burlywood;
+    margin: 1px;
+    padding: 1px;
+   
+}
+
+.banner {
+    width:100% ;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+* {
+  box-sizing: border-box;                       
+}
+
+.badan-utama{
+    max-width: 760px;
+    margin:0 auto;
+    background:fixed;
+}
+.box-body li{
+  list-style: none;
+}
+
+.kotak{ 
+    display:flex;
+    gap:18px;
+
+}
+
+  .box-header {
+    background: #8b0000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 15px;
+    text-align: center;
+  }
+
+  
+  .kiri, .kanan {
+    flex: 1;
+  }
+  .kiri .box-header, .kanan .box-header {
+    text-align: left;
+  }
+  .kiri .box-body, .kanan .box-body {
+    padding: 12px 15px;
+    font-size: 14px; 
+  }
+  .utama {
+    flex: 2;
+  }
+  footer { 
+    background-color:rgb(233, 146, 41);
+    text-align:center;
+    padding: 10px;
+    margin-top: 20px;
+  }
